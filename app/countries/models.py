@@ -10,8 +10,8 @@ class Country(models.Model):
 
 
 class HostCountry(models.Model):
-    championship = models.ForeignKey('championships.Championship', verbose_name = 'Championship', null = False, blank = False, on_delete = models.PROTECT)
-    country = models.ForeignKey('countries.Country', verbose_name = 'Country', null = False, blank = False, on_delete = models.PROTECT)
+    championship = models.ForeignKey('championships.Championship', related_name = '%(class)s_championship', verbose_name = 'Championship', null = False, blank = False, on_delete = models.PROTECT)
+    country = models.ForeignKey('countries.Country', related_name = '%(class)s_country', verbose_name = 'Country', null = False, blank = False, on_delete = models.PROTECT)
 
     def __str__(self):
-        return self.country
+        return f"{self.championship} - {self.country}"
