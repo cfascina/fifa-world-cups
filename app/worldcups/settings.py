@@ -40,7 +40,7 @@ INSTALLED_APPS = [
     'countries',
     'players',
     'stadiums',
-    'phases',
+    'games',
     'championships',
     'rankings',
 ]
