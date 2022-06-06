@@ -1,6 +1,11 @@
 from django.db import models 
 
 
+CARD_COLORS = (
+    ('Y', 'YELLOW'),
+    ('R', 'RED')
+)
+
 class Game(models.Model): 
     goals_country_home = models.IntegerField(verbose_name = 'Goals Country Home', null = False, blank = False)
     goals_country_guest = models.IntegerField(verbose_name = 'Goals Country Guest', null = False, blank = False)
@@ -18,12 +23,12 @@ class Game(models.Model):
         return f"{self.country_home} ({self.goals_country_home}) vs. ({self.goals_country_guest}) {self.country_guest}"
 
 class Card(models.Model):
-    color = models.CharField(verbose_name = 'Color', null = True, blank = True, max_length = 10)
+    color = models.CharField(verbose_name = 'Color', null = True, blank = True, choices = CARD_COLORS, max_length = 6)
     game = models.ForeignKey('Game', verbose_name = 'Game', null = False, blank = False, on_delete = models.PROTECT)
     player = models.ForeignKey('players.Player', verbose_name = 'Player', null = False, blank = False, on_delete = models.PROTECT)
     
     def __str__(self):
-        return self.game, self.player 
+        return f"{self.player} ({self.color})" 
     
 class Phase(models.Model):
     name = models.CharField(verbose_name = 'Name', null = False, blank = False, max_length = 255)
