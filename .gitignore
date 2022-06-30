@@ -4,6 +4,9 @@
 *.pyc
 __pycache__/
 
+# Jupyter Notebooks
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
 
 # Environments
 .env
