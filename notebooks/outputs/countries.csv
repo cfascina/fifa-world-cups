@@ -1,84 +1,81 @@
-name,acronym,continent
-France,FRA,Europe
-USA,USA,
-Yugoslavia,YUG,
-Romania,ROU,Europe
-Argentina,ARG,Americas
-Chile,CHI,Americas
-Uruguay,URU,Americas
-Brazil,BRA,Americas
-Paraguay,PAR,Americas
-Austria,AUT,Europe
-Hungary,HUN,Europe
-Switzerland,SUI,Europe
-Sweden,SWE,Europe
-Germany,GER,Europe
-Spain,ESP,Europe
-Italy,ITA,Europe
-Czechoslovakia,TCH,
-Cuba,CUB,Americas
-England,ENG,
-Germany FR,FRG,
-Turkey,TUR,Asia
-Soviet Union,URS,
-Northern Ireland,NIR,
-Mexico,MEX,Americas
-Wales,WAL,
-Portugal,POR,Europe
-Korea DPR,PRK,
-Peru,PER,Americas
-Belgium,BEL,Europe
-Bulgaria,BUL,Europe
-German DR,GDR,
-Zaire,ZAI,
-Poland,POL,Europe
-Australia,AUS,Oceania
-Scotland,SCO,
-Netherlands,NED,Europe
-Haiti,HAI,Americas
-Tunisia,TUN,Africa
-Algeria,ALG,Africa
-Honduras,HON,Americas
-Canada,CAN,Americas
-Morocco,MAR,Africa
-Korea Republic,KOR,
-Iraq,IRQ,Asia
-Denmark,DEN,Europe
-United Arab Emirates,UAE,Asia
-Costa Rica,CRC,Americas
-Cameroon,CMR,Africa
-Republic of Ireland,IRL,
-Colombia,COL,Americas
-Norway,NOR,Europe
-Nigeria,NGA,Africa
-Saudi Arabia,KSA,Asia
-Bolivia,BOL,Americas
-Russia,RUS,Europe
-Greece,GRE,Europe
-Jamaica,JAM,Americas
-South Africa,RSA,Africa
-Japan,JPN,Asia
-Croatia,CRO,Europe
-China PR,CHN,
-Senegal,SEN,Africa
-Slovenia,SVN,Europe
-Ecuador,ECU,Americas
-Trinidad and Tobago,TRI,Americas
-Serbia and Montenegro,SCG,
-Angola,ANG,Africa
-Czech Republic,CZE,Europe
-Togo,TOG,Africa
-Iran,IRN,Asia
-Côte d'Ivoire,CIV,
-Ghana,GHA,Africa
-Ukraine,UKR,Europe
-Serbia,SRB,Europe
-New Zealand,NZL,Oceania
-Slovakia,SVK,Europe
-IR Iran,IRN,
-Bosnia and Herzegovina,BIH,
-Egypt,EGY,Africa
-Dutch East Indies,INH,
-Israel,ISR,Asia
-El Salvador,SLV,Americas
-Kuwait,KUW,Asia
+name,coi_acronym,continent
+Argélia,ALG,África
+Angola,ANG,África
+Argentina,ARG,América do Sul
+Austrália,AUS,Oceania
+Áustria,AUT,Europa
+Bélgica,BEL,Europa
+Bósnia e Herzegovina,BIH,Europa
+Bolívia,BOL,América do Sul
+Brasil,BRA,América do Sul
+Bulgária,BUL,Europa
+Canadá,CAN,América do Norte
+Chile,CHI,América do Sul
+China,CHN,Ásia
+Costa do Marfim,CIV,África
+Camarões,CMR,África
+Colômbia,COL,América do Sul
+Costa Rica,CRC,América do Norte
+Croácia,CRO,Europa
+Cuba,CUB,América do Norte
+República Tcheca,CZE,Europa
+Dinamarca,DEN,Europa
+Equador,ECU,América do Sul
+Egito,EGY,África
+Inglaterra,ENG,Europa
+El Salvador,ESA,América do Norte
+Espanha,ESP,Europa
+França,FRA,Europa
+Alemanha Ocidental,FRG,Europa
+Alemanha Oriental,GDR,Europa
+Alemanha,GER,Europa
+Gana,GHA,África
+Grécia,GRE,Europa
+Haiti,HAI,América do Norte
+Honduras,HON,América do Norte
+Hungria,HUN,Europa
+Irlanda,IRL,Europa
+Irã,IRN,Ásia
+Iraque,IRQ,Ásia
+Israel,ISR,Ásia
+Itália,ITA,Europa
+Jamaica,JAM,América do Norte
+Japão,JPN,Ásia
+Coréia do Sul,KOR,Ásia
+Arábia Saudita,KSA,Ásia
+Kuwait,KUW,Ásia
+Marrocos,MAR,África
+México,MEX,América do Norte
+Holanda,NED,Europa
+Nigéria,NGR,África
+Noruega,NOR,Europa
+Nova Zelândia,NZL,Oceania
+Paraguai,PAR,América do Sul
+Peru,PER,América do Sul
+Polônia,POL,Europa
+Portugal,POR,Europa
+Coréia do Norte,PRK,Ásia
+Romênia,ROU,Europa
+África do Sul,RSA,África
+Rússia,RUS,Europa
+Servia e Montenegro,SCG,Europa
+Escócia,SCO,Europa
+Senegal,SEN,África
+Eslovênia,SLO,Europa
+Sérvia,SRB,Europa
+Suíça,SUI,Europa
+Eslováquia,SVK,Europa
+Suécia,SWE,Europa
+Tchecoslováquia,TCH,Europa
+Togo,TOG,África
+Trinidad e Tobago,TTO,África
+Tunísia,TUN,África
+Turquia,TUR,Europa
+Emirados Árabes Unidos,UAE,Ásia
+Ucrânia,UKR,Europa
+União Soviética,URS,Europa
+Uruguai,URU,América do Sul
+Estados Unidos,USA,América do Norte
+País de Gales,WAL,Europa
+Iugoslávia,YUG,Europa
+Zaire,ZAI,África
